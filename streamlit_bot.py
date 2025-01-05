@@ -37,8 +37,8 @@ load_css()
 
 
     # creating side bar
-menu=["🏠Home","🕓Chat History","📊Model Evaluation","📝About"]
-choice =st.sidebar.selectbox("Menu",menu)
+menue=["🏠Home","🕓Chat History","📊Model Evaluation","📝About"]
+choice =st.sidebar.selectbox("Menue",menue)
 
  # Initialize chat history
   
