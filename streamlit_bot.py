@@ -37,8 +37,8 @@ load_css()
 
 
     # creating side bar
-menue=["🏠Home","🕓Chat History","📊Model Evaluation","📝About"]
-choice =st.sidebar.selectbox("Menue",menue)
+menu=["🏠Home","🕓Chat History","📊Model Evaluation","📝About"]
+choice =st.sidebar.selectbox("Menu",menu)
 
  # Initialize chat history
   
@@ -62,7 +62,7 @@ if choice == "🏠Home":
    
     
     initialize_session_state()
-    st.title("GlobeGuru 🤖 ")
+    st.title("Mincrypt 🤖 ")
     st.write(" Ask me anythink relared travel 😀 ")
 
     chat_placeholder = st.container()
